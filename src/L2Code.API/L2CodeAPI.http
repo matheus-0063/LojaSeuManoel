@@ -1,0 +1,24 @@
+### Teste do endpoint POST /api/Pedidos
+POST http://localhost:5209/api/Pedidos
+Content-Type: application/json
+Accept: application/json
+
+{
+  "pedidos": [
+    {
+      "id": 1,
+      "produtos": [
+        {
+          "id": 10,
+          "produtoId": "iPhone",
+          "dimensoes": {
+            "altura": 10,
+            "largura": 2,
+            "comprimento": 5
+          }
+        }
+      ]
+    }
+  ]
+}
+
